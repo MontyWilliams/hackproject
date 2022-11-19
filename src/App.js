@@ -1,19 +1,13 @@
-import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Map from './components/Map';
-
+import React from 'react';
+import Layout from './components/Layout';
 
 
 import './App.css';
 
 function App() {
   return (
-    <div className="h-full">
-      <Header />
-      <Home />
-      <About />
-      <Map />
+    <div >
+      <Layout />
 
     </div>
   );
